@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../Estilos/style.css">
+    
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">RODOLFO JARA</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <br>
+
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="../PerfilRj.png" alt="">
+            </div>
+            <h1>RODOLFO JARA LOPEZ</h1>
+            <h2>Junior Software Engineer | JAVA Microservices | .Net | Sql Server | Full stack developer | Azure</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/rodolfo-jara/" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Rodolfo-Jara" class="skype"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/rodolfo.jaralopez.19/" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/darkx01black" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/rodolfojaralop" class="rss"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Rodolfo Jara.</span> Egresado de la carrera de Computación e Informática
+                 con habilidades de liderazgo y trabajo en equipo; 
+                 tengo interés en desarrollarme en el área del desarrollo de software, 
+                 administración de Base de Datos. 
+                 Mi respectiva es a aplicar todo lo aprendido en el área laboral y aportar valor a la organización.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            <a> 974 348 854</a>
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            <a>rjaralopez19@gmail.com</a>
+                        </li>
+                        <li>
+                            <strong>Linkedin</strong>
+                            <a style="text-decoration: none; color: white;" href="https://www.linkedin.com/in/rodolfo-jara/"> Rodolfo-Jara-Lopez</a>
+                        </li>
+                        <li>
+                            <strong>Git Hub</strong>
+                            <a style="text-decoration: none; color: white;" href="https://github.com/Rodolfo-Jara"> Rodolfo-Jara</a>
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrollador Junior</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>HOBBY</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Programar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-regular fa-futbol"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a style="text-decoration: none; color: white;" href="../Pagina/RODOLFO JARA CV.pdf" >
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                </a>
+                <span class="overlay"></span>
+            </button>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades técnicas</h3>
+                    <div class="skill">
+                        <span>JAVA</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Sql Server</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>86%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Azure</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Git Hub</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Computación e Informática</h4>
+                        <span class="casa"> Instituto Superior Tecnológico Privado Cibertec</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>Egresado de la carrera de computación e Informática como Desarrollador junior</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>.NET Core Microservices - The Complete Guide (.NET 8 MVC)</h4>
+                        <span class="casa">Udemy</span>
+                        <span class="fecha">2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4> Backend Development for .Net Full Stack</h4>
+                        <span class="casa">Coursera</span>
+                        <span class="fecha">2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Proyectos Academicos</h3>
+                    <div class="item der">
+                        <h4>Aplicación web de ventas de una libreria </h4>
+                        <span class="casa">(.Net Microservices | SQL Server |Azure)</span>
+                        <span class="fecha">2023</span>
+                        <p>Desarrollador       <br>
+                            • Encargado de desarrollar la aplicación web <br>
+                            <a style="text-decoration: none; color: white;" href="https://bookshopweb.azurewebsites.net">• Link de la aplicacion web :  Click Aqui</a>
+                            </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>sistema de calificaciones paracafeterias </h4>
+                        <span class="casa">(Spring boot |JAVA | Sql Server)</span>
+                        <span class="fecha">2023</span>
+                        <p>Elaboración de una aplicación web para que los clientes
+                            consumidores dejen una calificación, para la mejora
+                            continua</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form action="https://formspree.io/f/xleyykyp" method="post">
+                    <input type="text" name="Nombre"  placeholder="Nombre" required>
+                    <input type="text" name="Telefono" placeholder="Celular" required>
+                    <input type="email" name="Correo" placeholder="example@gmail.com" required>
+                    <input type="text" name="Tema" placeholder="Tema" required>
+                    <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button type="submit">
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe src="https://www.google.com/maps/embed?pb=!3m2!1ses-419!2spe!4v1704247332050!5m2!1ses-419!2spe!6m8!1m7!1sXJ7uYwUYbw6Nh7tB_GaDLw!2m2!1d47.60642509284722!2d-122.3321037532335!3f31.800997923207206!4f-47.51707139181414!5f0.7820865974627469" width="380" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/rodolfo-jara/" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Rodolfo-Jara" class="skype"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/rodolfo.jaralopez.19/" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/darkx01black" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/rodolfojaralop" class="rss"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="../JavaScript/js.js"></script>
+</body>
+</html>
